@@ -1,0 +1,27 @@
+.app-card-menu {
+	background-color: #fff;
+	text-align: left;
+
+	a {
+		text-decoration: none;
+		color: black;
+	}
+
+	p {
+		font-size: 1rem;
+		margin-bottom: 10px;
+	}
+
+	&__image {
+        width: 100%;
+		height: 25vh;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+		h3 {
+            color: #fff;
+        }
+	}
+}
