@@ -1,10 +1,18 @@
+@import "bootstrap/scss/bootstrap";
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .nolink {
-    text-decoration: none;
-    color: black;
+	text-decoration: none;
+	color: black;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	column-gap: 10px;
 }
